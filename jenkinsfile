@@ -1,0 +1,15 @@
+pipeline {
+    agent {
+        node {
+            label "docker-rafzhka"
+        }
+    }
+
+    stages {
+        stage('CHECKOUT SCM') {
+            steps {
+                git branch: 'main', url: 'https://github.com/RaffaYahfazhka/simple-apps.git'
+            }
+        }
+    }
+}
