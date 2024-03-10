@@ -50,7 +50,7 @@ pipeline {
         stage('BUILD COMPOSE-DOCKER') {
             steps {
                 sh '''
-                docker push RaffaYahfazhka/simple-rafzhka:latest'''
+                docker push raffayahfazhka/simple-apps:latest'''
             }
         }
     }
