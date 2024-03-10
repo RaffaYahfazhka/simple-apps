@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node {
-            label "docker-raffa"
+            label "docker-rafa-test"
         }
     }
 
