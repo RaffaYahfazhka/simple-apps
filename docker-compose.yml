@@ -1,7 +1,7 @@
 services:
   apps:
    build: ./app
-   image: raffayahfazhka/simple-rafzhka:latest
+   image: RaffaYahfazhka/simple-rafzhka:latest
    ports:
    - "10000:3000"
    restart: always
