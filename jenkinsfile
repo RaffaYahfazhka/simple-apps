@@ -46,5 +46,12 @@ pipeline {
                 docker compose up -d'''
             }
         }
+
+        stage('BUILD COMPOSE-DOCKER') {
+            steps {
+                sh '''
+                docker push raffayahfazhka/simple-rafzhka:latest'''
+            }
+        }
     }
 }
